@@ -29,12 +29,44 @@
 // console.log(typeof StringNumber);
 // console.log(StringNumber);
 
-// **************************** Operation ******************************************
+// **************************** Operator ******************************************
 
 // let Value = 3;
 // let Negvalue = -Value;
 // console.log(Negvalue);
 
-let str1 = "hello";
-let str2 = "Aman";
-let str3 = "str1 + str2";
+// let str1 = "hello";
+// let str2 = "Aman";
+// let str3 = str1 + str2;
+
+// console.log(str3);
+
+console.log("1" + 2);
+console.log(2 + "1");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+//  console.log(( 3 + 5) * 4 % 6);
+
+// console.log(+true);
+// console.log(+"");
+
+// Postfix increment
+
+let n = 55;
+n++;
+console.log(n);
+
+let B = 55;
+const N = B++;
+console.log(N);
+
+// Prefix increment
+
+let x = 50;
+const y = ++x;
+console.log(y);
+
+let x2 = 50;
+++x2;
+console.log(x2);
