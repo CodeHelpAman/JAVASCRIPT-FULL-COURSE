@@ -45,3 +45,29 @@ console.log(typeof anotherId);
 // myobj => object
 // heros =. object
 // anotherId => symbol
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack and heap memory
+// Stack Memory (Primitive),Heap Memory (Not primitive)
+
+// stack memory
+
+let myYoutubename = "Codehelpaman@.com";
+
+let myanothername = myYoutubename;
+myanothername = "codehhelp@hotcom";
+
+console.log(myYoutubename);
+console.log(myanothername);
+
+// Heap memory
+let userOne = {
+  email: "Codehelpaman@gmail.com",
+  upi: "aman@yal",
+};
+
+let UserTwo = userOne;
+UserTwo.email = "Amanyadavhamjapur@gmail.com";
+
+console.log(userOne.email);
+console.log(UserTwo.email);
